@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    position: relative;
+    min-width: 0;
+}
+
+body {
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1f2020;
+    color: ghostwhite;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-wrap: balance;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+a {
+    color: ghostwhite;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightskyblue;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: -0.75em;
+    margin-left: -1em;
+}
+
+ul li {
+    line-height: 1.2;
+}
+
+ul li::before {
+    content: "\003E";
+    font-size: xx-small;
+    margin-right: 0.5em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-link {
+    word-spacing: 0.5em;
+}
+
+.underline-hover:hover {
+    text-decoration: underline;
+}
