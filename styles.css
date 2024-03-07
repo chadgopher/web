@@ -58,10 +58,18 @@ ul li::before {
     vertical-align: middle;
 }
 
+.content {
+    padding-inline: 1.5em;
+}
+
 .header-link {
     word-spacing: 0.5em;
 }
 
 .underline-hover:hover {
     text-decoration: underline;
+}
+
+.dim {
+    color: #ececec;
 }
