@@ -5,14 +5,18 @@
 }
 
 body {
-    min-height: 100dvh;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
+    min-height: 100dvh;
+    max-width: 50em;
     height: 100vh;
-    margin: 0;
     background-color: #1f2020;
     color: ghostwhite;
+    font-family: "Georgia", serif;
+    line-height: 1.5;
+    padding: 4em 1em;
 }
 
 h1,
@@ -25,15 +29,13 @@ h4 {
 h2 {
     font-weight: bold;
     font-size: 1em;
+    margin-top: 1em;
+    padding-top: 1em;
 }
 
 a {
-    color: ghostwhite;
-    text-decoration: none;
-}
-
-a:hover {
     color: lightskyblue;
+    text-decoration: none;
 }
 
 p {
