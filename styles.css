@@ -31,6 +31,7 @@ h2 {
     font-size: 1em;
     margin-top: 1em;
     padding-top: 1em;
+    color: #ececec;
 }
 
 a {
@@ -43,21 +44,28 @@ p {
 }
 
 ul {
-    list-style-type: none;
     margin-top: -0.75em;
     margin-left: -1em;
 }
 
 ul li {
-    line-height: 1.2;
+    line-height: 1.5;
 }
 
 ul li::before {
-    content: "\003E";
     font-size: xx-small;
-    margin-right: 0.5em;
+    margin-right: 1em;
     display: inline-block;
     vertical-align: middle;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #717272;
+    margin: 1em 0;
+    padding: 0;
 }
 
 .content {
@@ -65,6 +73,10 @@ ul li::before {
 }
 
 .header-link {
+    word-spacing: 1em;
+}
+
+.nav-links {
     word-spacing: 0.5em;
 }
 
@@ -74,4 +86,19 @@ ul li::before {
 
 .dim {
     color: #ececec;
+}
+
+.essay-links a {
+    color: #ececec;
+}
+
+.essay-links a:hover {
+    text-decoration: underline;
+}
+
+.back {
+    position: fixed;
+    top: 2rem;
+    left: 2rem;
+    z-index: 1000;
 }
