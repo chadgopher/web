@@ -65,9 +65,15 @@ hr {
     padding: 0;
 }
 
+blockquote {
+    border-left: 2px solid dimgray;
+    margin-inline: 0.55rem;
+    padding-inline: 1rem;
+}
+
 .content {
     padding-inline: 0.25em;
-    padding-bottom: 0.5em; 
+    padding-bottom: 0.5em;
 }
 
 .header-link {
